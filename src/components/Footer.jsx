@@ -1,7 +1,7 @@
 // src/components/Footer.jsx
 import React from "react";
 import styled from "styled-components";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaTwitter } from "react-icons/fa";
 
 const FooterContainer = styled.footer`
   background: #333;
@@ -33,14 +33,11 @@ const Footer = () => {
   return (
     <FooterContainer>
       <Socials>
-        <a href="#">
+        <a href="www.facebook.com">
           <FaFacebookF />
         </a>
-        <a href="#">
+        <a href="www.x.com">
           <FaTwitter />
-        </a>
-        <a href="#">
-          <FaLinkedinIn />
         </a>
       </Socials>
       <ContactInfo>
