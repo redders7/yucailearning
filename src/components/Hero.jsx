@@ -56,8 +56,11 @@ const Hero = () => {
   return (
     <Section id="hero">
       <Content>
-        <h1>Welcome to Jola Singapore</h1>
-        <p>Your trusted partner in [Your Industry]</p>
+        <h1>Welcome to Yu Cai Learning</h1>
+        <p>
+          Unlock the beauty of the Chinese language with personalized
+          instruction tailored to your learning needs
+        </p>
         <a href="#contact">Get Started</a>
       </Content>
     </Section>
