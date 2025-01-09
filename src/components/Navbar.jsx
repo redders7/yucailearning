@@ -73,7 +73,7 @@ const Navbar = () => {
 
   return (
     <Nav>
-      <Logo href="#">Jola SG</Logo>
+      <Logo href="#">Yucai Learning</Logo>
       <Hamburger onClick={() => setIsOpen(!isOpen)}>
         <div></div>
         <div></div>
