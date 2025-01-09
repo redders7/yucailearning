@@ -41,11 +41,11 @@ const Footer = () => {
         </a>
       </Socials>
       <ContactInfo>
-        Email: contact@jola-sg.com | Phone: +65 1234 5678
+        Email: chenxiaoli7210@gmail.com | Phone: +65 9727 7483
       </ContactInfo>
-      <ContactInfo>Address: 123 Jola Street, Singapore</ContactInfo>
+      <ContactInfo>Address: Tanah Merah Kechil Avenue, Singapore</ContactInfo>
       <p>
-        &copy; {new Date().getFullYear()} Jola Singapore. All rights reserved.
+        &copy; {new Date().getFullYear()} Yucai Learning. All rights reserved.
       </p>
     </FooterContainer>
   );
