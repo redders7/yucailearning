@@ -26,7 +26,7 @@ const Home = () => {
         style={{ backgroundImage: `url(${heroBg})` }}
       >
         <div className="hero-overlay">
-          <h1>Welcome to Chinese Language Tutoring</h1>
+          <h1>Welcome to Yucai Learning</h1>
           <p>
             Master Chinese with personalized lessons designed to fit your
             learning style and goals.
