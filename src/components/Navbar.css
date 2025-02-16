@@ -1,0 +1,75 @@
+/* src/components/Navbar.css */
+
+/* Remove existing background color and adjust padding */
+.navbar {
+  padding: 10px 30px; /* Increased padding for larger size */
+  display: flex;
+  justify-content: center; /* Center the container */
+  /* Removed background-color */
+}
+
+/* Container to align logo and links */
+.navbar-container {
+  width: 100%;
+  max-width: 1500px; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Logo Section */
+.navbar-logo {
+  display: flex;
+  align-items: stretch;
+}
+
+/* Logo Image */
+.logo-image {
+  height: 160px; /* Adjust the height as needed */
+  width: auto;
+}
+
+/* Navigation Links */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 50px; /* Increased gap for better spacing */
+}
+
+.navbar-links li a {
+  color: #333; /* Changed text color to dark for better visibility */
+  text-decoration: none;
+  font-size: 18px; /* Increased font size */
+  font-weight: 500;
+}
+
+.navbar-links li a:hover {
+  color: #2c3e50; /* Optional: Change color on hover */
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-links li {
+    width: 100%;
+  }
+
+  .navbar-links li a {
+    padding: 10px 0;
+    width: 100%;
+  }
+
+  .logo-image {
+    height: 50px; /* Slightly smaller logo on mobile */
+  }
+}

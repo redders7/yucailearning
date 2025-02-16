@@ -1,9 +1,11 @@
 // src/components/Navbar.jsx
+
 import React, { useState } from "react";
 import styled from "styled-components";
+import logo from "../assets/images/logo.png"; // Adjust the path if necessary
 
 const Nav = styled.nav`
-  background: #fff;
+  background: #ffffff;
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -11,13 +13,17 @@ const Nav = styled.nav`
   align-items: center;
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 100;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 `;
 
 const Logo = styled.a`
-  font-size: 1.5rem;
-  font-weight: bold;
+  display: flex;
+  align-items: center;
+  img {
+    height: 40px; /* Adjust based on your logo size */
+    width: auto;
+  }
 `;
 
 const Menu = styled.ul`
@@ -28,10 +34,12 @@ const Menu = styled.ul`
     display: ${({ isOpen }) => (isOpen ? "block" : "none")};
     position: absolute;
     top: 60px;
-    right: 0;
-    background: #fff;
+    left: 0;
+    background: #ffffff;
     width: 100%;
     text-align: center;
+    padding: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 `;
 
@@ -45,7 +53,11 @@ const MenuItem = styled.li`
 
 const MenuLink = styled.a`
   font-size: 1rem;
+  color: #333333;
+  text-decoration: none;
   cursor: pointer;
+  transition: color 0.3s ease;
+
   &:hover {
     color: #007bff;
   }
@@ -62,7 +74,7 @@ const Hamburger = styled.div`
   div {
     width: 25px;
     height: 3px;
-    background: #333;
+    background: #333333;
     margin: 5px;
     transition: all 0.3s ease;
   }
@@ -71,32 +83,54 @@ const Hamburger = styled.div`
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <Nav>
-      <Logo href="#">Yucai Learning</Logo>
-      <Hamburger onClick={() => setIsOpen(!isOpen)}>
+      <Logo href="/" onClick={closeMenu} aria-label="Yucai Learning Home">
+        <img src={logo} alt="Yucai Learning Logo" />
+      </Logo>
+      <Hamburger onClick={toggleMenu} aria-label="Toggle menu">
         <div></div>
         <div></div>
         <div></div>
       </Hamburger>
       <Menu isOpen={isOpen}>
         <MenuItem>
-          <MenuLink href="#hero">Home</MenuLink>
+          <MenuLink href="#hero" onClick={closeMenu}>
+            Home
+          </MenuLink>
         </MenuItem>
         <MenuItem>
-          <MenuLink href="#about">About</MenuLink>
+          <MenuLink href="#about" onClick={closeMenu}>
+            About
+          </MenuLink>
         </MenuItem>
         <MenuItem>
-          <MenuLink href="#services">Services</MenuLink>
+          <MenuLink to="/schedule" onClick={closeMenu}>
+            Schedule
+          </MenuLink>
         </MenuItem>
         <MenuItem>
-          <MenuLink href="#portfolio">Portfolio</MenuLink>
+          <MenuLink href="#portfolio" onClick={closeMenu}>
+            Portfolio
+          </MenuLink>
         </MenuItem>
         <MenuItem>
-          <MenuLink href="#testimonials">Testimonials</MenuLink>
+          <MenuLink href="#testimonials" onClick={closeMenu}>
+            Testimonials
+          </MenuLink>
         </MenuItem>
         <MenuItem>
-          <MenuLink href="#contact">Contact</MenuLink>
+          <MenuLink href="#contact" onClick={closeMenu}>
+            Contact
+          </MenuLink>
         </MenuItem>
       </Menu>
     </Nav>

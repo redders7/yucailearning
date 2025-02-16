@@ -1,7 +1,7 @@
 // src/components/Hero.jsx
 import React from "react";
 import styled from "styled-components";
-import heroImage from "../assets/images/hero-placeholder.jpg"; // Use a placeholder image
+import heroImage from "../assets/images/teacher1.jpg"; // Use a placeholder image
 
 const Section = styled.section`
   height: 100vh;

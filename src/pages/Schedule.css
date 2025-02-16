@@ -1,0 +1,77 @@
+/* src/pages/Schedule.css */
+
+/* Container Styling */
+.schedule-container {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh; /* Fill the viewport height */
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+}
+
+/* Title Styling */
+.schedule-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+}
+
+/* Schedule Tables Container */
+.schedule-tables {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Individual Table Styling */
+.schedule-table {
+  flex: 1 1 500px;
+  background-color: #f9f9f9;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.schedule-table h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+/* Table Styling */
+.schedule-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.schedule-table th,
+.schedule-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.schedule-table th {
+  background-color: #f0f8ff;
+  color: #2c3e50;
+  font-weight: 700;
+}
+
+.schedule-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .schedule-tables {
+    flex-direction: column;
+  }
+  .schedule-table {
+    width: 100%;
+  }
+}

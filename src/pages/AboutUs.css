@@ -1,0 +1,143 @@
+/* src/pages/AboutUs.css */
+
+/* Reset styles for consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Container: fixed width for content */
+.aboutus-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  min-height: 100vh;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+  line-height: 1.6;
+}
+
+/* Section Styling */
+.philosophy-section {
+  margin-bottom: 3rem; /* Reduced bottom margin */
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 0.5rem;
+}
+
+/* Section Headings */
+.philosophy-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem; /* Reduced gap from 2rem to 1rem */
+  color: #2c3e50;
+  position: relative;
+}
+
+.philosophy-section h2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -0.5rem;
+  transform: translateX(-50%);
+  width: 5rem;
+  height: 0.25rem;
+  background-color: #2c3e50;
+}
+
+/* Content Wrapper: Center both text and image */
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* Text Content */
+.text-content {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+  /* Removed extra top padding for a tighter layout */
+}
+
+.text-content ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.text-content ul li {
+  position: relative;
+  margin-bottom: 0.75rem;
+  padding-left: 2rem;
+  font-size: 1.5rem;
+  color: #333333;
+  line-height: 1.5;
+}
+
+.text-content ul li::before {
+  content: "✔️";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.5rem;
+  color: #2c3e50;
+}
+
+/* Styling for bilingual grouping */
+.text-content ul li strong {
+  font-weight: 700;
+}
+.text-content ul li em {
+  display: block;
+  font-style: italic;
+  color: #555555;
+  margin-top: 0.25rem;
+}
+
+/* Image Content */
+.image-content {
+  flex: 1;
+  max-width: 400px; /* Reduced max-width from 450px */
+  text-align: center;
+}
+
+.image-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-content img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0.375rem 0.5rem rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .philosophy-section h2 {
+    font-size: 2rem;
+  }
+  .text-content ul li {
+    font-size: 1rem;
+    padding-left: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .aboutus-container {
+    padding: 4rem 1rem;
+  }
+  .philosophy-section h2 {
+    font-size: 1.75rem;
+  }
+  .text-content ul li {
+    font-size: 1rem;
+  }
+}
