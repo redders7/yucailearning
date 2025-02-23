@@ -6,9 +6,8 @@ import { Link } from "react-router-dom"; // For CTA button
 
 // Import images
 import heroBg from "../assets/images/home-hero-bg.jpg"; // Full-width hero background
-import philosophyImage from "../assets/images/philosophy1.jpg"; // Chinese section image
-import studentImage from "../assets/images/student4.jpg"; // English section image
-
+import studentImage from "../assets/images/philosophy1.jpg"; // English section image
+import philosophyImage from "../assets/images/student3.jpg"; // Chinese section image
 const Home = () => {
   return (
     <>

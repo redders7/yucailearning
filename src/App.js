@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Helmet } from "react-helmet"; // Import Helmet
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ScrollToTop from "./pages/ScrollToTop";
 
 // Import pages
 import Home from "./pages/Home";
@@ -17,6 +18,7 @@ import "./App.css"; // Global styles
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="app">
         <Helmet>
           <link rel="icon" type="image/png" href="/assets/images/logo.png" />
