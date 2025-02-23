@@ -28,6 +28,7 @@
 .photo-item {
   overflow: hidden;
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 .photo-item img {
@@ -39,6 +40,82 @@
 
 .photo-item img:hover {
   transform: scale(1.05);
+}
+
+/* Modal Overlay (Centered Pop-Up) */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Modal Image */
+/* Modal Image */
+.modal-content img {
+  max-width: 100%;
+  max-height: 80vh; /* Adjust as needed */
+  object-fit: contain;
+  border-radius: 0.5rem;
+}
+
+/* Close Button */
+.close-button {
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  background: #ffffff;
+  border: none;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+/* Modal Navigation */
+.modal-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.modal-nav button {
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.modal-nav button:hover {
+  background: rgba(255, 255, 255, 1);
 }
 
 /* Responsive Adjustments */

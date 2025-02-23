@@ -58,20 +58,20 @@ const AboutUs = () => {
                 <em>中国资深中学华文老师</em>
               </li>
               <li>
-                <strong>9 years of teaching experience in China</strong>
+                <strong>10 years of teaching experience in China</strong>
                 <br />
                 <em>中国任教10年</em>
               </li>
               <li>
                 <strong>
-                  7 years of teaching experience at a renowned tuition centre in
+                  8 years of teaching experience at a renowned tuition centre in
                   Singapore
                 </strong>
                 <br />
                 <em>新加坡著名补习中心任教8年</em>
               </li>
               <li>
-                <strong>Private tuition for 15 years</strong>
+                <strong>Private tuition for 16 years</strong>
                 <br />
                 <em>现在从事家庭补习16年</em>
               </li>
