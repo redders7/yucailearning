@@ -4,7 +4,7 @@ import "./AboutUs.css"; // Updated CSS styling
 import { Helmet } from "react-helmet";
 
 // Import teacher images
-import teacher1 from "../assets/images/teacher1.jpg";
+import teacher1 from "../assets/images/teacher3.jpg";
 import teacher2 from "../assets/images/teacher2.jpg";
 
 const AboutUs = () => {
