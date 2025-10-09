@@ -27,51 +27,47 @@ const Schedule = () => {
               <tr>
                 <td>Monday</td>
                 <td>
-                  Primary 5: 3-5pm
+                  Primary 6: 3-5.30pm
                   <br />
-                  Secondary 4: 5-8pm
+                  Secondary 4 (Higher Chinese): 5.30-8pm
                 </td>
               </tr>
               <tr>
                 <td>Wednesday</td>
                 <td>
-                  Primary 4: 3-5pm
+                  Primary 5: 3-5pm
                   <br />
-                  Primary 2: 5-7pm
+                  Primary 3: 5-7pm
                 </td>
               </tr>
               <tr>
                 <td>Thursday</td>
                 <td>
-                  Primary 6: 3-6pm
-                  <br />
-                  Primary 5: 6-8pm
+                  Primary 6: 6-8pm
                 </td>
               </tr>
               <tr>
                 <td>Friday</td>
                 <td>
-                  Primary 6: 3-6pm
-                  <br />
-                  Primary 3: 7-9pm
+                  Primary 4: 6-8pm
                 </td>
               </tr>
               <tr>
                 <td>Saturday</td>
                 <td>
-                  Secondary 4 (Higher Chinese): 9.30am–12.30pm
+                  Secondary 3: 2.30–5pm
                   <br />
-                  Secondary 2 (Higher Chinese): 2pm–5pm
-                  <br />
-                  Secondary 3 (Higher Chinese): 5pm–8pm
+                  Secondary 4: 5–7.30pm
                 </td>
               </tr>
               <tr>
                 <td>Sunday</td>
                 <td>
-                  Secondary 1 (Higher Chinese): 9.30am–12pm
+                  Secondary 2 (Higher Chinese): 9.30am–12pm
                   <br />
-                  Secondary 2: 2.30pm–5pm
+                  Secondary 3 (Higher Chinese): 1.30–4pm
+                  <br />
+                  Secondary 1: 4-6.30pm
                 </td>
               </tr>
             </tbody>
@@ -89,51 +85,47 @@ const Schedule = () => {
               <tr>
                 <td>星期一</td>
                 <td>
-                  小五: 3-5pm
+                  小六: 3-5.30pm
                   <br />
-                  中四: 5-8pm
+                  中四(高华): 5.30-8pm
                 </td>
               </tr>
               <tr>
                 <td>星期三</td>
                 <td>
-                  小四: 3-5pm
+                  小五: 3-5pm
                   <br />
-                  小二: 5-7pm
+                  小三: 5-7pm
                 </td>
               </tr>
               <tr>
                 <td>星期四</td>
                 <td>
-                  小六: 3-6pm
-                  <br />
-                  小五: 6-8pm
+                  小六: 6-8pm
                 </td>
               </tr>
               <tr>
                 <td>星期五</td>
                 <td>
-                  小六: 3-6pm
-                  <br />
-                  小三: 7-9pm
+                  小四: 6-8pm
                 </td>
               </tr>
               <tr>
                 <td>星期六</td>
                 <td>
-                  中四(高华): 9.30am–12.30pm
+                  中三: 2.30pm–5pm
                   <br />
-                  中二(高华): 2pm–5pm
-                  <br />
-                  中三: 5pm–8pm
+                  中四: 5pm–7.30pm
                 </td>
               </tr>
               <tr>
                 <td>星期天</td>
                 <td>
-                  中一(高华): 9.30am–12pm
+                  中二(高华): 9.30am–12pm
                   <br />
-                  中二: 2.30pm–5pm
+                  中三(高华): 1.30pm–4pm
+                  <br />
+                  中一: 4pm–6.30pm
                 </td>
               </tr>
             </tbody>
