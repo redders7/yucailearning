@@ -113,9 +113,9 @@ const Schedule = () => {
               <tr>
                 <td>星期六</td>
                 <td>
-                  中三: 2.30pm–5pm
+                  中三: 2.30–5pm
                   <br />
-                  中四: 5pm–7.30pm
+                  中四: 5–7.30pm
                 </td>
               </tr>
               <tr>
@@ -123,9 +123,9 @@ const Schedule = () => {
                 <td>
                   中二(高华): 9.30am–12pm
                   <br />
-                  中三(高华): 1.30pm–4pm
+                  中三(高华): 1.30–4pm
                   <br />
-                  中一: 4pm–6.30pm
+                  中一: 4–6.30pm
                 </td>
               </tr>
             </tbody>
