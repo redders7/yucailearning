@@ -56,6 +56,12 @@
   border-bottom: 1px solid #ddd;
 }
 
+/* ✨ ADD THIS NEW RULE ✨ */
+.schedule-table th:first-child,
+.schedule-table td:first-child {
+  white-space: nowrap;
+}
+
 .schedule-table th {
   background-color: #f0f8ff;
   color: #2c3e50;
