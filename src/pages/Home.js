@@ -28,10 +28,10 @@ const Home = () => {
           <h1>Welcome to Yucai Learning</h1>
           <p>
             Master Chinese with personalized lessons designed to fit your
-            learning style and goals.
+            learning style and goals
           </p>
           <Link to="/contact" className="cta-button">
-            Get Started
+            Contact Us
           </Link>
         </div>
       </section>

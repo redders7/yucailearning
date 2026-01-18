@@ -26,10 +26,14 @@ html {
 
 /* Set default font family and background color */
 body {
-  background-color: #f5f5dc; /* Beige */
-  font-family: "Roboto", sans-serif; /* Ensure consistent font */
-  color: #2c3e50; /* Dark text for contrast */
-  line-height: 1.6;
+  /* Professional gradient background - soft blue-gray to white */
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 50%, #f1f5f9 100%);
+  background-attachment: fixed;
+  font-family: "Inter", "Segoe UI", "Roboto", -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #1e293b;
+  /* Slate-800 - professional dark text */
+  line-height: 1.7;
+  letter-spacing: 0.01em;
 }
 
 /* Anchor tag styling */
@@ -101,25 +105,38 @@ label {
 
 input,
 textarea {
-  padding: 0.75rem;
+  padding: 0.75rem 1rem;
   margin-bottom: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
   font-size: 1rem;
+  background-color: #ffffff;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
 button {
-  padding: 0.75rem;
-  background-color: #2c3e50;
-  color: #ecf0f1;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+  color: #ffffff;
   border: none;
-  border-radius: 4px;
+  border-radius: 8px;
   cursor: pointer;
   font-size: 1rem;
+  font-weight: 500;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 4px rgba(59, 130, 246, 0.2);
 }
 
 button:hover {
-  background-color: #34495e;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
 }
 
 /* Responsive Design */

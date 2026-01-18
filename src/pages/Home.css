@@ -3,11 +3,13 @@
 /* Full-Width Hero Section */
 .hero-section {
   width: 100%;
-  background-size: cover; /* Ensure the image covers the entire section */
+  background-size: cover;
+  /* Ensure the image covers the entire section */
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  overflow: hidden; /* Prevent any background overflow */
+  overflow: hidden;
+  /* Prevent any background overflow */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,8 +18,10 @@
 
 /* Semi-Transparent Overlay for Readability */
 .hero-overlay {
-  background: rgba(0, 0, 0, 0.4); /* Adjust opacity as desired */
-  width: 100%; /* Changed from 120% to 100% for consistency */
+  background: rgba(0, 0, 0, 0.4);
+  /* Adjust opacity as desired */
+  width: 100%;
+  /* Changed from 120% to 100% for consistency */
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -69,18 +73,21 @@
 
 /* Philosophy Sections */
 .philosophy-section {
-  margin-bottom: 4rem;
-  padding: 2rem;
-  background-color: #f9f9f9;
-  border-radius: 0.5rem; /* Rounded corners for each section */
+  margin-bottom: 3rem;
+  padding: 2.5rem;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(226, 232, 240, 0.8);
 }
 
 .philosophy-section h2 {
   text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 1rem; /* Reduced gap between header and content */
-  color: #2c3e50;
+  font-size: 2.25rem;
+  margin-bottom: 1.5rem;
+  color: #1e3a5f;
   position: relative;
+  font-weight: 700;
 }
 
 .philosophy-section h2::after {
@@ -89,9 +96,10 @@
   left: 50%;
   bottom: -0.5rem;
   transform: translateX(-50%);
-  width: 5rem;
-  height: 0.25rem;
-  background-color: #2c3e50;
+  width: 4rem;
+  height: 3px;
+  background: linear-gradient(90deg, #1e40af 0%, #3b82f6 100%);
+  border-radius: 2px;
 }
 
 /* Content Wrappers */
@@ -151,7 +159,8 @@
 .chinese-image img {
   width: 100%;
   height: auto;
-  border-radius: 0.5rem; /* Rounded corners for images */
+  border-radius: 0.5rem;
+  /* Rounded corners for images */
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -165,7 +174,8 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .hero-section {
-    height: 50vh; /* Reduce hero height on smaller screens */
+    height: 50vh;
+    /* Reduce hero height on smaller screens */
   }
 
   .hero-overlay h1 {

@@ -26,11 +26,11 @@ const TeachingMethodologies = () => {
             <ul>
               <li>
                 <strong>
-                  Focuses on the PSLE and O-Level examinations and requirements,
-                  Higher Chinese included
+                  Focuses on the PSLE and O-Level examinations and syllabus,
+                  including Higher Chinese
                 </strong>
                 <br />
-                <em>围绕新加坡小六会考和O 水准高华考试要求教学</em>
+                <em>围绕新加坡小六会考和 'O' 水准高华考试要求教学</em>
               </li>
               <li>
                 <strong>
@@ -71,20 +71,18 @@ const TeachingMethodologies = () => {
           <div className="text-content">
             <ul>
               <li>
-                <strong>Primary Level: 5 per group</strong>
+                <strong>Primary Level: 5 students per group</strong>
                 <br />
                 <em>小学：每组5人</em>
               </li>
               <li>
-                <strong>Secondary Level: 6 per group</strong>
+                <strong>Secondary Level: 6 students per group</strong>
                 <br />
                 <em>中学：每组6人</em>
               </li>
             </ul>
             <p>
-              Small tuition groups provide personalised attention, allowing the
-              teacher to focus on each student's strengths and weaknesses,
-              resulting in improved understanding and engagement.
+              Small tuition groups allows us to provide each student with a curated learning experience based on their strengths and weaknesses, resulting in improved understanding and engagement.
             </p>
             <p>
               小组补习能够提供个性化的关注，使老师能够专注于每个学生的优点和不足，从而更好地满足他们的需求，促进理解与参与。

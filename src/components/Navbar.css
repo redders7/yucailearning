@@ -2,12 +2,13 @@
 
 /* Navbar container styling */
 .navbar {
-  background-color: #ffffff;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
   padding: 1rem 2rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   position: sticky;
   top: 0;
   z-index: 100;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.8);
 }
 
 .navbar-container {
@@ -28,18 +29,20 @@
 }
 
 .navbar-links li {
-  margin-left: 2rem; /* Spacing between links */
+  margin-left: 2rem;
+  /* Spacing between links */
 }
 
 .navbar-links li a {
   text-decoration: none;
-  color: #333333;
-  font-size: 1.1rem; /* Reduced from 1.3rem */
-  font-weight: 500; /* Reduced from 700 */
+  color: #334155;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
 }
 
 .navbar-links li a:hover {
-  color: #2c3e50;
+  color: #2563eb;
 }
 
 /* Mobile Menu Icon */
@@ -49,7 +52,8 @@
 }
 
 .hamburger-icon {
-  font-size: 1.8rem; /* Reduced from 2rem */
+  font-size: 1.8rem;
+  /* Reduced from 2rem */
   color: #333333;
 }
 
@@ -80,8 +84,10 @@
 .mobile-menu-links li a {
   text-decoration: none;
   color: #333333;
-  font-size: 1.1rem; /* Reduced from 1.3rem */
-  font-weight: 500; /* Reduced from 700 */
+  font-size: 1.1rem;
+  /* Reduced from 1.3rem */
+  font-weight: 500;
+  /* Reduced from 700 */
 }
 
 /* Responsive Styles */
@@ -89,6 +95,7 @@
   .desktop-menu {
     display: none;
   }
+
   .mobile-menu-icon {
     display: block;
   }

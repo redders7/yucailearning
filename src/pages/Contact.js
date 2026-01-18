@@ -36,7 +36,7 @@ const Contact = () => {
           </a>
         </p>
         <p className="contact-note">
-          Click the mobile number above to chat directly with our teacher!
+          Click the mobile number above to chat directly with Ms Chen!
         </p>
       </div>
       <div className="map-container">
