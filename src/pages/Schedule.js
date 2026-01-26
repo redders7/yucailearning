@@ -55,7 +55,7 @@ const Schedule = () => {
               <tr>
                 <td>Saturday</td>
                 <td>
-                  Secondary 1 (Standard Chinese): 9:30 am–12:00pm
+                  Secondary 1 (Standard Chinese): 9:30am–12:00pm
                   <br />
                   Secondary 3 (Standard Chinese): 2:00–4:30pm
                   <br />
@@ -65,7 +65,7 @@ const Schedule = () => {
               <tr>
                 <td>Sunday</td>
                 <td>
-                  Secondary 2 (Higher Chinese): 9:30 am–12:00pm
+                  Secondary 2 (Higher Chinese): 9:30am–12:00pm
                   <br />
                   Secondary 3 (Higher Chinese): 1:30–4:00pm
                   <br />
