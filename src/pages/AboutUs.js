@@ -4,8 +4,8 @@ import "./AboutUs.css"; // Updated CSS styling
 import { Helmet } from "react-helmet";
 
 // Import teacher images
-import teacher1 from "../assets/images/teacher3.jpg";
-import teacher2 from "../assets/images/teacher2.jpg";
+import image1 from "../assets/images/teacher3.jpg";
+import image2 from "../assets/images/student5.jpg";
 
 const AboutUs = () => {
   return (
@@ -23,7 +23,7 @@ const AboutUs = () => {
         <h2>About Ms Chen / 背景</h2>
         <div className="content-wrapper">
           <div className="image-content">
-            <img src={teacher1} alt="Educational Background" loading="lazy" />
+            <img src={image1} alt="Educational Background" loading="lazy" />
           </div>
           <div className="text-content">
             <ul>
@@ -78,7 +78,7 @@ const AboutUs = () => {
             </ul>
           </div>
           <div className="image-content">
-            <img src={teacher2} alt="Teaching Experience" loading="lazy" />
+            <img src={image2} alt="Teaching Experience" loading="lazy" />
           </div>
         </div>
       </section>
